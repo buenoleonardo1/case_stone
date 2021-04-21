@@ -382,3 +382,57 @@ select Canal1, FEV_Volume_Transacionado, FEV_base_ativa, MAR_Volume_Transacionad
 ABR_Volume_Transacionado*1.03 as MAI_Volume_Transacionado, ABR_base_ativa*1.05 as MAI_base_ativa 
 from volume_e_transacoes_abril_canal_3
 where Canal1 = 'Canal 3';
+
+# visualizações importantes
+
+select * from rentabilidadeanalíticab;
+select * from cidades;
+select * from quantidade_transacoes_por_cidade;
+select * from outubro;
+select * from novembro;
+select * from dezembro;
+select * from janeiro;
+select * from fevereiro;
+select * from outubro_novembro;
+select * from saldo_out_nov;
+select * from churn_out_nov;
+select * from churn_nov_dez;
+select * from churn_dez_jan;
+select * from churn_jan_fev;
+select * from tempo_de_vida_out_nov;
+select * from tempo_de_vida_nov_dez;
+select * from tempo_de_vida_dez_jan;
+select * from tempo_de_vida_jan_fev;
+select * from tempo_de_vida_out_nov_dez;
+select * from tempo_de_vida_dez_jan_fev;
+select * from tempo_de_vida_all;
+select * from churn_media;
+select * from churn_e_tempo_de_vida_medio;
+select * from clusterizacao_cidade;
+select * from cidades_lucrativas;
+select * from Cidades_sem_Churn;
+select * from Cidades_melhores_tempos_de_vida;
+
+select * from canais;
+select * from canais_outubro;
+select * from canais_novembro;
+select * from canais_dezembro;
+select * from canais_janeiro;
+select * from canais_fevereiro;
+select * from canais_outubro_novembro;
+select * from canais_saldo_out_nov;
+select * from canais_churn_out_nov;
+select * from canais_tempo_de_vida_out_nov;
+select * from canais_tempo_de_vida_nov_dez;
+select * from canais_tempo_de_vida_dez_jan;
+select * from canais_tempo_de_vida_jan_fev;
+select * from canais_tempo_de_vida_out_nov_dez;
+select * from canais_tempo_de_vida_all;
+select * from canais_clusterizacao;
+select * from volume_transacionado_fev;
+select * from base_ativa_fev;
+select * from volume_e_transacoes_fevereiro;
+select * from volume_e_transacoes_marco_canal_1_2;
+select * from volume_e_transacoes_abril_canal_1_2;
+select * from volume_e_transacoes_maio_canal_1_2;
+select * from volume_e_transacoes_maio_canal_3;
