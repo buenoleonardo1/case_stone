@@ -383,7 +383,7 @@ ABR_Volume_Transacionado*1.03 as MAI_Volume_Transacionado, ABR_base_ativa*1.05 a
 from volume_e_transacoes_abril_canal_3
 where Canal1 = 'Canal 3';
 
-# visualizações importantes
+# Visualizações importantes
 
 select * from rentabilidadeanalíticab;
 select * from cidades;
